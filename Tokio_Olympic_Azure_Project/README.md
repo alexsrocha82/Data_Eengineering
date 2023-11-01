@@ -12,5 +12,4 @@ This will pass through each stage of an ingestion lifecycle.
 - Copy the transformed data into the Storage Container (Transformed Data).
 - Use Azure Synapse Analytics to create and copy the data to a database.
 - Visualize and create dashboard indicators using Power BI."
-
 ![Alt text](image.png)
