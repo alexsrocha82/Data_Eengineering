@@ -11,5 +11,6 @@ This will pass through each stage of an ingestion lifecycle.
 - Transform the data with Azure Databricks.
 - Copy the transformed data into the Storage Container (Transformed Data).
 - Use Azure Synapse Analytics to create and copy the data to a database.
-- Visualize and create dashboard indicators using Power BI."
+- Visualize and create dashboard indicators using Power BI.
+
 ![Alt text](image.png)
