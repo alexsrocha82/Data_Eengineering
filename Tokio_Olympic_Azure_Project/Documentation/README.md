@@ -51,7 +51,6 @@ Make sure to copy the raw link.
 ![Alt text](image-11.png)
 
 Create the new dataset. In this case, we're going to choose HTTP because we are accessing the data from GitHub. 
-And then choose the data format type.
 ![Alt text](image-12.png)
 
 And then choose the data format type.
