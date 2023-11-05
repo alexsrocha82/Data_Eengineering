@@ -47,8 +47,7 @@ https://github.com/alexsrocha82/Data_Engineering/tree/main/Tokyo_Olympic_Azure_P
 ![Alt text](image-9.png)
 
 Make sure to copy the raw link.
-![Alt text](image-10.png)
-![Alt text](image-11.png)
+![Alt text](image-10.png)![Alt text](image-11.png)
 
 Create the new dataset. In this case, we're going to choose HTTP because we are accessing the data from GitHub. 
 ![Alt text](image-12.png)
@@ -69,8 +68,7 @@ Create Linked service for the Sink.
 ![Alt text](image-17.png)
 
 Set the path to store the data.
-![Alt text](image-18.png)
-![Alt text](image-19.png)
+![Alt text](image-18.png)![Alt text](image-19.png)
 
 Once it's done, copy the data with the 'Debug' button.
 ![Alt text](image-20.png)
@@ -85,12 +83,10 @@ And adjust the 'Sink' Path.
 ![Alt text](image-24.png)
 
 Then copy the data. When it's all done, the ADF and the container should look like this.
-![Alt text](image-25.png)
-![Alt text](image-26.png)
+![Alt text](image-25.png)![Alt text](image-26.png)
 
 The next step is to create an Azure Databricks service.
-![Alt text](image-27.png)
-![Alt text](image-28.png)
+![Alt text](image-27.png)![Alt text](image-28.png)
 
 Once the Azure Databricks workspace is created, you'll have to create a Cluster. 
 For this project, we can use a 'single node' because we don't need much transformation power.
@@ -117,8 +113,7 @@ Next, create the secret. Give it a name and copy the values.
 ![Alt text](image-35.png)
 
 Give it a name and copy the values.
-![Alt text](image-36.png)
-![Alt text](image-37.png)
+![Alt text](image-36.png)![Alt text](image-37.png)
 
 Then create the basic authentication from Databricks to the data lake. 
 The best practice is to create a key vault, but in this case, we'll just create a manual connection.
